@@ -12,5 +12,8 @@ spring.cloud.stream.kafka.streams:
 spring.cloud.stream.bindings.input.destination: payment_topic
 spring.cloud.stream.bindings.output.destination: payment_status_topic
 spring.cloud.stream.bindings.payment.destination: payment_status_topic
+
+#spring.cloud.stream.kafka.binder.brokers: 3.218.212.33
+#spring.cloud.stream.kafka.binder.defaultBrokerPort: 9092
             
             
